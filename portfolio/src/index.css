@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Base app layout and default dark theme */
+html {
+  color-scheme: dark;
+}
+body {
+  @apply bg-neutral-900 text-neutral-100 antialiased;
+}
